@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  transition: background .7s;
+}
+
+#quote-box{
+  width:fit-content;
+  max-width: 500px;
+  padding: 50px 0;
+  border: solid;
+  background-color: white;
+  border: none;
+}
+
+#quote-box h2{
+  text-align: center;
+  transition: all .7s;
+  max-width: 88%;
+  margin: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1.7rem;
+}
+.author{
+  width:100%;
+  text-align: right;
+  font-size: 1rem;
+  letter-spacing: 1.1px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+
+#quote-box button{
+  display: flex;
+  color: white;
+  font-size: 0.9rem;
+  transition: all .7s;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+}
+#quote-box button:hover{
+  filter: brightness(1.2)
+}
+
+.button-container{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding:0px 50px
+}
+
+.tweet-container{
+  display: flex;
+  gap:20px;
+}
+.tweet-box{
+  font-size: 1.5rem;
+  transition: all .7s;
+  width: 50px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  display: flex;
+}
+a{
+  color: white;
+  width: 100%;
+  text-align: center;
+}
